@@ -25,7 +25,7 @@ uberjar(){
 
 dock() {
     NS="lab.cloud"
-    NAME="${NS}.app-http-layer-1"
+    NAME="${NS}.pedestal1"
     NETWORK="lab.cloud"
     DOCKERFILE_PATH=../../docker/ubuntu18-openjdk11-lein/Dockerfile
 
@@ -51,7 +51,7 @@ dock() {
 dock1(){
 
     NS="lab.cloud"
-    NAME="${NS}.app-http-layer-1-prod1"
+    NAME="${NS}.pedestal1.prod1"
     NETWORK="lab.cloud"
     DOCKERFILE_PATH=../../docker/alpine-openjdk11-min/Dockerfile
 
