@@ -46,7 +46,23 @@ dock() {
 
 dock1(){
 
-echo ""
+    NS="lab.cloud"
+    NAME="${NS}.app-http-layer-1-prod1"
+    NETWORK="lab.cloud"
+    DOCKERFILE_PATH=../../docker/alpine-openjdk11-min/Dockerfile
+
+    docker build -t ${NAME} -f ${DOCKERFILE_PATH} ./
+    docker network create ${NETWORK} || true
+    docker run  --rm \
+                --cpus=4.0 \
+                --memory=1g \
+                --name ${NAME} \
+                --network ${NETWORK} \
+                --expose 8080 \
+                -p 8080:8080 \
+                -v "$(pwd)":/ctx/app \
+                 ${NAME} \
+                 bash -c "cd /ctx/app; java -jar target/app.standalone.jar;"
 
 }
 
