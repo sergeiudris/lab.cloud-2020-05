@@ -10,6 +10,9 @@ dev(){
 
 }
 
+main(){
+  lein run dev
+}
 
 uberjar(){
   lein with-profiles +prod uberjar
@@ -31,7 +34,9 @@ dock() {
                 -it \
                 --network ${NETWORK} \
                 --expose 7788 \
+                --expose 8080 \
                 -p 7788:7788 \
+                -p 8080:8080 \
                 -v "$(pwd)":/ctx/app \
                 -v "$(pwd)"/.user:/root \
                 -v "$(cd ../ && pwd)"/core:/ctx/core \

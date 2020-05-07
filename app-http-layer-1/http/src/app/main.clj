@@ -7,4 +7,4 @@
 
 
 (defn -main [& args]
-  (println "abc"))
+  (app.http/start))

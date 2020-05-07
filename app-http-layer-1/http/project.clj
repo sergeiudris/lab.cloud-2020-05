@@ -28,7 +28,7 @@
                               [cider/cider-nrepl "0.24.0"]]}
 
              :prod ^:leaky {:main ~MAIN
-                            :uberjar-name "app.uberjar.jar"
+                            :uberjar-name "app.standalone.jar"
                             :jar-name     "app.jar"
                             :uberjar-exclusions []
                             :aot  nil #_[datastore.serdes]}
