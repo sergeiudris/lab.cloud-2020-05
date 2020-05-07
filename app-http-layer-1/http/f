@@ -10,8 +10,12 @@ dev(){
 
 }
 
-main(){
+run_dev(){
   lein run dev
+}
+
+run_uberjar(){
+  java -jar target/app.standalone.jar
 }
 
 uberjar(){
