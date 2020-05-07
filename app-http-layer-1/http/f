@@ -61,8 +61,7 @@ dock1(){
                 --expose 8080 \
                 -p 8080:8080 \
                 -v "$(pwd)":/ctx/app \
-                 ${NAME} \
-                 bash -c "cd /ctx/app; java -jar target/app.standalone.jar;"
+                 ${NAME} 
 
 }
 
