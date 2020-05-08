@@ -6,5 +6,4 @@
 
         com.sparkjava/spark-core {:mvn/version "2.9.1"}
 
-        app/app {:local/root "../core"}
-        }}
+        app/app {:local/root "../core"}}}
