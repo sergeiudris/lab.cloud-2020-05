@@ -8,4 +8,4 @@
         io.pedestal/pedestal.route   {:mvn/version "0.5.7"}
         io.pedestal/pedestal.jetty   {:mvn/version "0.5.7"}
 
-        app/app {:local/root "../app"}}}
+        app/app {:local/root "../core"}}}
