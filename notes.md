@@ -53,3 +53,5 @@
 - native images
   - at this point are a concept
   - 12gb of memory and 3-5min compilation is not practical
+  - transcript on graal's JiT vs AoT
+    - https://www.infoq.com/presentations/graalvm-performance/
