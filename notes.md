@@ -58,8 +58,10 @@
     - https://www.innoq.com/en/blog/native-clojure-and-graalvm/
   - transcript on graal's JiT vs AoT
     - https://www.infoq.com/presentations/graalvm-performance/
+  - https://codurance.es/2018/12/28/native-microservices-with-sparkjava-and-graal/
 
 - jvm and docker
   - http://blog.gilliard.lol/2019/12/04/Clojure-Containers.html
     - https://adoptopenjdk.net/
+      - vhttps://stackoverflow.com/questions/52431764/difference-between-openjdk-and-adoptopenjdk
     - https://github.com/orb/lein-metajar
