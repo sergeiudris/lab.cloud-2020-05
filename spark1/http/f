@@ -98,5 +98,26 @@ dockrun1(){
                  java -jar /ctx/app/target/app.standalone.jar
 }
 
+dockrun2(){
+
+    NS="lab.cloud"
+    NAME="${NS}.spark1.prod2"
+    NETWORK="lab.cloud"
+    DOCKERFILE_PATH=../../docker/adoptopenjdk-jre11-openj9/Dockerfile
+
+    docker build -t ${NAME} -f ${DOCKERFILE_PATH} ./
+    docker network create ${NETWORK} || true
+    docker run  --rm \
+                --cpus=4.0 \
+                --memory=1g \
+                --name ${NAME} \
+                --network ${NETWORK} \
+                --expose 8080 \
+                -p 8080:8080 \
+                -v "$(pwd)":/ctx/app \
+                 ${NAME} \
+                 java -jar /ctx/app/target/app.standalone.jar
+}
+
 
 "$@"
