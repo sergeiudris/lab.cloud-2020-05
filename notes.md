@@ -69,4 +69,5 @@
     - https://www.eclipse.org/openj9/
       - https://github.com/eclipse/openj9
     - https://github.com/fabric8io-images/run-java-sh
+      - https://github.com/fabric8io-images/run-java-sh/blob/master/TUNING.md
       - https://github.com/fabric8io-images/run-java-sh/blob/master/fish-pepper/run-java-sh/fp-files/run-java.sh
