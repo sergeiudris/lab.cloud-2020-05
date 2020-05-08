@@ -50,8 +50,11 @@
   - https://github.com/denoland/deno
 
 
-- native images
-  - at this point are a concept
-  - 12gb of memory and 3-5min compilation is not practical
+- graal native images
+  - notes
+    - at this point are a concept
+    - 12gb of memory and 3-5min compilation is not practical
+  - https://github.com/oracle/graal/blob/master/substratevm/LIMITATIONS.md
+    - https://www.innoq.com/en/blog/native-clojure-and-graalvm/
   - transcript on graal's JiT vs AoT
     - https://www.infoq.com/presentations/graalvm-performance/
