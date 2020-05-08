@@ -35,6 +35,15 @@
              :uberjar {:aot :all
                        :native-image {:jvm-opts ["-Dclojure.compiler.direct-linking=true"]}}}
 
+  :native-image {:name "app.native"            ;; name of output image, optional
+                ;  :graal-bin "/path/to/graalvm/" ;; path to GraalVM home, optional
+                 :opts [; "--no-server" ;; pass-thru args to GraalVM native-image, optional
+                        ; "--report-unsupported-elements-at-runtime"
+                        "--initialize-at-build-time"
+                        "--enable-url-protocols=http"
+                        ; "--verbose"
+                        "--no-fallback"]}
+
   :main ^{:skip-aot false} ~MAIN
   :jvm-opts ["-Xms768m" "-Xmx11998m"]
 
