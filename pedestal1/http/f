@@ -23,9 +23,13 @@ uberjar(){
   # java -jar target/app.uber.jar 
 }
 
-dock() {
+native(){
+  lein native-image
+}
+
+dock1() {
     NS="lab.cloud"
-    NAME="${NS}.pedestal1"
+    NAME="${NS}.pedestal1.dock1"
     NETWORK="lab.cloud"
     DOCKERFILE_PATH=../../docker/ubuntu18-openjdk11-lein/Dockerfile
 
@@ -48,7 +52,32 @@ dock() {
                  bash -c "cd /ctx/app; bash;"
 }
 
-dock1(){
+dock2() {
+    NS="lab.cloud"
+    NAME="${NS}.pedestal1.dock2"
+    NETWORK="lab.cloud"
+    DOCKERFILE_PATH=../../docker/graalvm-native/Dockerfile
+
+    docker build -t ${NAME} -f ${DOCKERFILE_PATH} ./
+    docker network create ${NETWORK} || true
+    docker run  --rm \
+                --cpus=4.0 \
+                --memory=12g \
+                --name ${NAME} \
+                -it \
+                --network ${NETWORK} \
+                --expose 7788 \
+                --expose 8080 \
+                -p 7788:7788 \
+                -p 8080:8080 \
+                -v "$(pwd)":/ctx/app \
+                -v "$(pwd)"/.user:/root \
+                -v "$(cd ../ && pwd)"/core:/ctx/core \
+                 ${NAME} \
+                 bash -c "cd /ctx/app; bash;"
+}
+
+dockrun1(){
 
     NS="lab.cloud"
     NAME="${NS}.pedestal1.prod1"
@@ -69,10 +98,5 @@ dock1(){
                  java -jar /ctx/app/target/app.standalone.jar
 }
 
-dock2(){
-
-echo ""
-
-}
 
 "$@"

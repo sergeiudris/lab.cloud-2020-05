@@ -48,3 +48,8 @@
   - 10 Things I Regret About Node.js - Ryan Dahl 
     - https://youtu.be/M3BM9TB-8yA
   - https://github.com/denoland/deno
+
+
+- native images
+  - at this point are a concept
+  - 12gb of memory and 3-5min compilation is not practical
