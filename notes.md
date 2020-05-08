@@ -58,3 +58,6 @@
     - https://www.innoq.com/en/blog/native-clojure-and-graalvm/
   - transcript on graal's JiT vs AoT
     - https://www.infoq.com/presentations/graalvm-performance/
+
+- jvm and docker
+  - http://blog.gilliard.lol/2019/12/04/Clojure-Containers.html
