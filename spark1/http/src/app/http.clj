@@ -17,11 +17,12 @@
 (def port 8080)
 
 (defn create-server []
+  (def *tmp* "something defined in runtime")
   (Spark/port port)
   (Spark/init)
   (Spark/get "/" (reify Route
-                     (handle [_ req res]
-                       "hello world"))))
+                   (handle [_ req res]
+                     (format "hello world, %s" *tmp*)))))
 
 
 (defn start []
