@@ -37,11 +37,12 @@
 
   :native-image {:name "app.native"            ;; name of output image, optional
                 ;  :graal-bin "/path/to/graalvm/" ;; path to GraalVM home, optional
-                 :opts [; "--no-server" ;; pass-thru args to GraalVM native-image, optional
+                 :opts ["--no-server" ;; pass-thru args to GraalVM native-image, optional
                         ; "--report-unsupported-elements-at-runtime"
+                        "--allow-incomplete-classpath"
                         "--initialize-at-build-time"
                         "--enable-url-protocols=http"
-                        ; "--verbose"
+                        "--verbose"
                         "--no-fallback"]}
 
   :main ^{:skip-aot false} ~MAIN

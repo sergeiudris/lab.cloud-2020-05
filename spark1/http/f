@@ -62,7 +62,7 @@ dock2() {
     docker network create ${NETWORK} || true
     docker run  --rm \
                 --cpus=4.0 \
-                --memory=1g \
+                --memory=12g \
                 --name ${NAME} \
                 -it \
                 --network ${NETWORK} \
