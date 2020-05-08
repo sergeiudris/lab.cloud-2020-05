@@ -30,7 +30,7 @@ native(){
 run_java_sh(){
   # JAVA_MAX_MEM_RATIO=100
   export JAVA_APP_JAR=target/app.standalone.jar
-  bash run-java.sh
+  bash run-java.sh "$@"
 }
 
 dock1() {
