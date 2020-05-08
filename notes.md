@@ -65,3 +65,6 @@
     - https://adoptopenjdk.net/
       - vhttps://stackoverflow.com/questions/52431764/difference-between-openjdk-and-adoptopenjdk
     - https://github.com/orb/lein-metajar
+  - https://medium.com/@jean_sossmeier/spring-boot-jvm-1eea422be930
+    - https://www.eclipse.org/openj9/
+    - https://github.com/fabric8io-images/run-java-sh/blob/master/fish-pepper/run-java-sh/fp-files/run-java.sh
