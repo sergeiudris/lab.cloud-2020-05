@@ -62,3 +62,4 @@
 - jvm and docker
   - http://blog.gilliard.lol/2019/12/04/Clojure-Containers.html
     - https://adoptopenjdk.net/
+    - https://github.com/orb/lein-metajar
