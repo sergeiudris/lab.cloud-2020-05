@@ -87,7 +87,7 @@ dock3() {
     NS="lab.cloud"
     NAME="${NS}.pedestal1.dock3"
     NETWORK="lab.cloud"
-    DOCKERFILE_PATH=../../docker/ubuntu18-openjdk11-jre-lein/Dockerfile
+    DOCKERFILE_PATH=../../docker/openjdk11-jre-lein/Dockerfile
 
     docker build -t ${NAME} -f ${DOCKERFILE_PATH} ./
     docker network create ${NETWORK} || true
