@@ -71,3 +71,7 @@
     - https://github.com/fabric8io-images/run-java-sh
       - https://github.com/fabric8io-images/run-java-sh/blob/master/TUNING.md
       - https://github.com/fabric8io-images/run-java-sh/blob/master/fish-pepper/run-java-sh/fp-files/run-java.sh
+
+- dockerfile
+  - env var into entrypoint
+    - https://stackoverflow.com/questions/37904682/how-do-i-use-docker-environment-variable-in-entrypoint-array
