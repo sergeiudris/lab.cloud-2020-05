@@ -6,7 +6,7 @@
    [io.pedestal.http.route :as route]
    [io.pedestal.http :as http]
 
-   [proc.api :as api]))
+   [app.api :as api]))
 
 (def ^:dynamic *proc* nil)
 

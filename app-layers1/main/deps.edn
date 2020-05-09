@@ -3,4 +3,6 @@
              "clojars" {:url "https://clojars.org/repo/"}}
  :deps {org.clojure/clojure {:mvn/version "1.10.1"}
         org.clojure/core.async {:mvn/version "1.1.587"}
-        app/proc.protocol {:local/root "../proc.protocol"}}}
+
+        app/proc.impl {:local/root "../proc.impl"}
+        app/api.http {:local/root "../api.http"}}}

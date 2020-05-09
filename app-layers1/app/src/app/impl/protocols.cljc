@@ -1,4 +1,4 @@
-(ns proc.protocol)
+(ns app.impl.protocols)
 
 (defprotocol Abc
   (foo [_])
