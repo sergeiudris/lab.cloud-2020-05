@@ -21,12 +21,12 @@ services:
         # - BASE_IMAGE=local.openjdk-jre11-clj-lein
         # - BASE_IMAGE=local.graalvm-native
         - BASE_IMAGE=local.adoptopenjdk-jre11-openj9
-    command: tail -f /dev/null
+    # command: tail -f /dev/null
     # command: bash f dev
-    # command: java -jar /ctx/app/target/app.standalone.jar
+    command: java -jar /ctx/app/target/app.standalone.jar
     ports:
-      - 7702:7788
-      - 8802:8080
+      - 5201:7788
+      - 5301:8080
     networks:
       - network1
     stdin_open: true
