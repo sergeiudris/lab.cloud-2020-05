@@ -84,3 +84,13 @@
       - https://en.wikipedia.org/wiki/Progressive_enhancement
         - ...emphasizes core webpage content first. This strategy then progressively adds more nuanced and technically rigorous layers...
         - https://support.google.com/webmasters/answer/81766?hl=en
+
+- examlpes of sitemap.xml and robots.txt
+  - github
+    - https://github.com/robots.txt
+  - google
+    - https://www.google.com/robots.txt
+    - https://www.google.com/sitemap.xml
+  - twitch
+    - https://www.twitch.tv/robots.txt
+    - https://www.twitch.tv/sitemap_index.xml.gz
