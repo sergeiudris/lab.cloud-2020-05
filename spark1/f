@@ -1,0 +1,82 @@
+#!/bin/bash
+
+
+dev(){
+
+  # lein repl :start :host 0.0.0.0 :port 7788
+  # lein repl :headless :host 0.0.0.0 :port 7788
+  # lein repl :connect 0.0.0.0:7878
+  lein repl :headless
+
+}
+
+run_dev(){
+  lein run dev
+}
+
+run_uberjar(){
+  java -jar target/app.standalone.jar
+}
+
+uberjar(){
+  lein with-profiles +prod uberjar
+  # java -jar target/app.uber.jar 
+}
+
+native(){
+  lein native-image
+}
+
+run_java_sh(){
+  # JAVA_MAX_MEM_RATIO=100
+  export JAVA_APP_JAR=target/app.standalone.jar
+  bash run-java.sh "$@"
+}
+
+
+dc(){
+  docker-compose --compatibility \
+  -f dc.yml \
+  "$@"
+}
+
+up(){
+  dc up -d --build "$@"
+}
+
+down(){
+  dc down "$@"
+}
+
+build(){
+  # https://docs.docker.com/compose/reference/build/
+  dc build $1
+}
+
+run(){
+  # https://docs.docker.com/compose/reference/run/
+  dc run --service-ports $1
+}
+
+runbash(){
+  # https://docs.docker.com/compose/reference/run/
+  run $1 bash -c "bash;"
+}
+
+buildrun(){
+  build $1
+  run $1
+}
+
+mount(){
+  build $1
+  runbash $1
+}
+
+into(){
+  dc exec $2 bash -c "bash;"
+}
+
+
+
+"$@"

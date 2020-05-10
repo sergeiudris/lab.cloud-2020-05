@@ -7,7 +7,7 @@ networks:
 services:
 
   app:
-    image: ${NAMESPACE}.pedestal1
+    image: ${NAMESPACE}.spark1
     volumes:
       - ./.user:/root
       - ./:/ctx/app
@@ -25,8 +25,8 @@ services:
     # command: bash f dev
     # command: java -jar /ctx/app/target/app.standalone.jar
     ports:
-      - 5201:7788
-      - 5301:8080
+      - 5202:7788
+      - 5302:8080
     networks:
       - network1
     stdin_open: true

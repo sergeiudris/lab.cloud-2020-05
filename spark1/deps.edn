@@ -4,6 +4,4 @@
  :deps {org.clojure/clojure {:mvn/version "1.10.1"}
         org.clojure/core.async {:mvn/version "1.1.587"}
 
-        com.sparkjava/spark-core {:mvn/version "2.9.1"}
-
-        app/app {:local/root "../core"}}}
+        com.sparkjava/spark-core {:mvn/version "2.9.1"}}}
