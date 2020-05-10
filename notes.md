@@ -75,3 +75,11 @@
 - dockerfile
   - env var into entrypoint
     - https://stackoverflow.com/questions/37904682/how-do-i-use-docker-environment-variable-in-entrypoint-array
+
+
+- indexing website content, SEO
+  - https://vuejsdevelopers.com/2018/04/09/single-page-app-seo/
+    - https://webmasters.googleblog.com/2015/10/deprecating-our-ajax-crawling-scheme.html
+      - https://webmasters.googleblog.com/2014/05/understanding-web-pages-better.html
+      - https://en.wikipedia.org/wiki/Progressive_enhancement
+        - ...emphasizes core webpage content first. This strategy then progressively adds more nuanced and technically rigorous layers...
