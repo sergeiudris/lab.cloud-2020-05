@@ -109,4 +109,5 @@
   - https://github.com/stereobooster/react-snap
   - https://yogthos.net/posts/2015-11-24-Serverside-Reagent.html
   - https://preactjs.com/cli/pre-rendering/
+  - https://nextjs.org/docs/basic-features/pages#pre-rendering
     
