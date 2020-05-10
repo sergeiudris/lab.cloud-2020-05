@@ -50,6 +50,6 @@
 
   :source-paths ["src"]
   :java-source-paths ["src"]
-  :test-paths ["test"]
-  :resource-paths ["resources" "config"]
+  :test-paths [] #_["test"]
+  :resource-paths [] #_["resources" "config"]
   :auto-clean false)

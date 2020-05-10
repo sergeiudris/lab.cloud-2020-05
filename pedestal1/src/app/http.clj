@@ -4,9 +4,7 @@
                                      >!! <!! alt!! alts! alts!! take! put! mult tap untap
                                      thread pub sub sliding-buffer mix admix unmix]]
    [io.pedestal.http.route :as route]
-   [io.pedestal.http :as http]
-
-   [app.api]))
+   [io.pedestal.http :as http]))
 
 (defn respond-hello [request]          
   {:status 200 :body "Hello, world!"}) 

@@ -1,0 +1,46 @@
+version: "3.7"
+
+services:
+
+  openjdk-jdk11-clj-lein:
+    image: local.openjdk-jdk11-clj-lein
+    build:
+      context: ./images/openjdk-jdk11-clj-lein
+      dockerfile: ./Dockerfile
+
+  openjdk-jre11-clj-lein:
+    image: local.openjdk-jre11-clj-lein
+    build:
+      context: ./images/openjdk-jre11-clj-lein
+      dockerfile: ./Dockerfile
+
+  openjdk-jdk11-clj-lein-node:
+    image: local.openjdk-jdk11-clj-lein-node
+    build:
+      context: ./images/openjdk-jdk11-clj-lein-node
+      dockerfile: ./Dockerfile
+
+  ubuntu18-openjdk11-lein:
+    image: local.ubuntu18-openjdk11-lein
+    build:
+      context: ./images/ubuntu18-openjdk11-lein
+      dockerfile: ./Dockerfile
+
+  graalvm-native:
+    image: local.graalvm-native    
+    build:
+      context: ./images/graalvm-native
+      dockerfile: ./Dockerfile      
+        
+  alpine-openjdk11-min:
+    image: local.alpine-openjdk11-min 
+    build:
+      context: ./images/alpine-openjdk11-min
+      dockerfile: ./Dockerfile           
+
+  adoptopenjdk-jre11-openj9:
+    image: local.adoptopenjdk-jre11-openj9
+    build:
+      context: ./images/adoptopenjdk-jre11-openj9
+      dockerfile: ./Dockerfile      
+      

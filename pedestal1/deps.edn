@@ -6,6 +6,4 @@
 
         io.pedestal/pedestal.service {:mvn/version "0.5.7"}
         io.pedestal/pedestal.route   {:mvn/version "0.5.7"}
-        io.pedestal/pedestal.jetty   {:mvn/version "0.5.7"}
-
-        app/app {:local/root "../core"}}}
+        io.pedestal/pedestal.jetty   {:mvn/version "0.5.7"}}}

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+base(){
+  docker-compose --compatibility \
+  -f dc-base.yml \
+  build \
+  "$@"
+}
+
+
+
+
+"$@"
