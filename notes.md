@@ -83,3 +83,4 @@
       - https://webmasters.googleblog.com/2014/05/understanding-web-pages-better.html
       - https://en.wikipedia.org/wiki/Progressive_enhancement
         - ...emphasizes core webpage content first. This strategy then progressively adds more nuanced and technically rigorous layers...
+        - https://support.google.com/webmasters/answer/81766?hl=en
