@@ -23,7 +23,7 @@ services:
         - BASE_IMAGE=local.adoptopenjdk-jre11-openj9
     command: tail -f /dev/null
     # command: bash f dev
-    command: java -jar /ctx/app/target/app.standalone.jar
+    # command: java -jar /ctx/app/target/app.standalone.jar
     ports:
       - 7702:7788
       - 8802:8080

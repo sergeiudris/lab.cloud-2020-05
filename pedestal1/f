@@ -48,10 +48,21 @@ down(){
   dc down "$@"
 }
 
+build(){
+  # https://docs.docker.com/compose/reference/build/
+  dc build $1
+}
+
 run(){
   # https://docs.docker.com/compose/reference/run/
-  $1 run --service-ports $2 bash -c "bash;"
+  dc run --service-ports $1 bash -c "bash;"
 }
+
+buildrun(){
+  build $1
+  run $1
+}
+
 
 term(){
   $1 exec $2 bash -c "bash;"
