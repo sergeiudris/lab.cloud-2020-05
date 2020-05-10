@@ -110,4 +110,7 @@
   - https://yogthos.net/posts/2015-11-24-Serverside-Reagent.html
   - https://preactjs.com/cli/pre-rendering/
   - https://nextjs.org/docs/basic-features/pages#pre-rendering
+
+- jump-to search history (autocomplete dropdown)
+  - github stores in localStorage as jump_to:page_views
     
