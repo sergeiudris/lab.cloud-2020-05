@@ -103,4 +103,9 @@
   - twitch
     - https://www.twitch.tv/robots.txt
     - https://www.twitch.tv/sitemap_index.xml.gz
+
+- pre-rendering
+  - https://web.dev/prerender-with-react-snap/
+  - https://github.com/stereobooster/react-snap
+  - https://yogthos.net/posts/2015-11-24-Serverside-Reagent.html
     
