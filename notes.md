@@ -108,4 +108,5 @@
   - https://web.dev/prerender-with-react-snap/
   - https://github.com/stereobooster/react-snap
   - https://yogthos.net/posts/2015-11-24-Serverside-Reagent.html
+  - https://preactjs.com/cli/pre-rendering/
     
