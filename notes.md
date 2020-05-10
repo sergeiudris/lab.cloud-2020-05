@@ -114,3 +114,5 @@
 - jump-to search history (autocomplete dropdown)
   - github stores in localStorage as jump_to:page_views
     
+- reagent SSR
+  - https://github.com/reagent-project/reagent-cookbook/tree/master/recipes/reagent-server-rendering
