@@ -63,6 +63,11 @@ runbash(){
   run $1 bash -c "bash;"
 }
 
+buildrun(){
+  build $1
+  run $1
+}
+
 mount(){
   build $1
   runbash $1
