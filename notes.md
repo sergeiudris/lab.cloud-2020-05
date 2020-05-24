@@ -76,3 +76,6 @@
   - env var into entrypoint
     - https://stackoverflow.com/questions/37904682/how-do-i-use-docker-environment-variable-in-entrypoint-array
 
+
+- kubernetes
+  - https://kubernetes.io/docs/concepts/
