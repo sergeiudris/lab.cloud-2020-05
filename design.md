@@ -23,3 +23,8 @@
     - to observe, machine (using lists) finds the adresses of machines that are in the game and joins the exchange
     - once game is finished it is persisted to distributed db and (with a possible delay) can be queried accross the cloud
     - same for creation of an event etc.
+  - a cloud is installed onto a machine, systems are installed into the cloud like to AWS: cloud provides apis 
+  - cloud browser is like an editor/browser: systems' clients are installed like extensions; or same as in unix OS, when you add a repo url and install an app
+  - a cloud browser can also act as a browser for standard domains
+  - a cloud machine chooses what distributions (systems) to host
+  - the in the cloud browser (which can be run on its own) one can select e.g. 'github.com/event-games' app (the app will provide ui for that system)
