@@ -32,6 +32,9 @@
 - centralized dynamic cloud
   - machines add themselves automatically (via bot install) to e.g. k8 cluster
   - consider non-browser client (to exclude domain, https issues)
+  - k8
+    - https://kubernetes.io/docs/tasks/administer-cluster/cluster-management/#resizing-a-cluster
+    - https://kubernetes.io/docs/concepts/architecture/nodes/#self-registration-of-nodes
 
 - research
   - dynamically add machines to k8 cluster
