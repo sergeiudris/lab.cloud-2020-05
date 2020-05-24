@@ -1,5 +1,5 @@
 
-- dynamic cloud
+- decentralized dynamic cloud
   - machines join the cloud dynamically
   - discovery starts with a list
   - public domains (e.g. github repos) are used in lookupd/dns like manner
@@ -28,3 +28,12 @@
   - a cloud browser can also act as a browser for standard domains
   - a cloud machine chooses what distributions (systems) to host
   - the in the cloud browser (which can be run on its own) one can select e.g. 'github.com/event-games' app (the app will provide ui for that system)
+
+- centralized dynamic cloud
+  - machines add themselves automatically (via bot install) to e.g. k8 cluster
+  - consider non-browser client (to exclude domain, https issues)
+
+- research
+  - dynamically add machines to k8 cluster
+  - decentralized k8 cluster
+  
