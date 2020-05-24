@@ -79,3 +79,4 @@
 
 - kubernetes
   - https://kubernetes.io/docs/concepts/
+    - https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
