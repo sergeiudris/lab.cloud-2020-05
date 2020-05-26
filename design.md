@@ -40,3 +40,10 @@
   - dynamically add machines to k8 cluster
   - decentralized k8 cluster
   
+
+-in theory: dynamic list of master nodes
+  - cluster optimal state implies e.g. not less than 10 master nodes and no more than 10% of total
+  - a job runs in the cluster that whenever the master nodes change, pushes updated list of master nodes to github repo
+  - this way, the list of master nodes is always quite short and can be obtained by the client
+  - all requests from clients go to master nodes
+  - cluster should pick nodes to be master based on machine's resources (more cpu/memory)
