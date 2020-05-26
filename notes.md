@@ -80,3 +80,8 @@
 - kubernetes
   - https://kubernetes.io/docs/concepts/
     - https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
+  - https://kubernetes.io/docs/concepts/architecture/nodes/#management
+    - "The kubelet on a node self-registers to the control plane"
+  - https://kubernetes.io/docs/concepts/architecture/control-plane-node-communication/#node-to-control-plane
+    - " the default operating mode for connections from the nodes and pods running on the nodes to the control plane is secured by default and can run over untrusted and/or public networks"
+  - https://kubernetes.io/blog/2016/10/globally-distributed-services-kubernetes-cluster-federation/

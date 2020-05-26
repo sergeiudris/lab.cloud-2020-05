@@ -40,6 +40,8 @@
         "editorError.foreground": "#ff0000",
         "editorWarning.foreground": "#000"
     },
+    "git.autofetch": false,
+    "git.terminalAuthentication": false,
     "editor.tokenColorCustomizations": {
         "[Default Light+]": {
             "textMateRules": [
