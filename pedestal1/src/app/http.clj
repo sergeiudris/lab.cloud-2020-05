@@ -7,7 +7,7 @@
    [io.pedestal.http :as http]))
 
 (defn respond-hello [request]          
-  {:status 200 :body "Hello, world!"}) 
+  {:status 200 :body "Hello, world!"})
 
 (def routes
   (route/expand-routes                                 
@@ -22,7 +22,10 @@
    {::http/routes routes
     ::http/type   :jetty
     ::http/host host
-    ::http/port port})) 
+    ::http/port port
+    ; ::http/allowed-origins ["*" "http://localhost:8080"]
+    ::http/allowed-origins ["*"]
+    }))
 
 (defn start []
   (println (format "; stared http server on %s:%s" host port))

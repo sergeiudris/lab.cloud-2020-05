@@ -16,11 +16,11 @@ services:
       dockerfile: ./Dockerfile
       args:
         - WORKDIR=/ctx/app/
-        # - BASE_IMAGE=local.openjdk-jdk11-clj-lein
+        - BASE_IMAGE=local.openjdk-jdk11-clj-lein
         # - BASE_IMAGE=local.ubuntu18-openjdk11-lein
         # - BASE_IMAGE=local.openjdk-jre11-clj-lein
         # - BASE_IMAGE=local.graalvm-native
-        - BASE_IMAGE=local.adoptopenjdk-jre11-openj9
+        # - BASE_IMAGE=local.adoptopenjdk-jre11-openj9
     # command: tail -f /dev/null
     # command: bash f dev
     command: java -jar /ctx/app/target/app.standalone.jar

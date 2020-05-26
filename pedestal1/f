@@ -55,7 +55,7 @@ build(){
 
 run(){
   # https://docs.docker.com/compose/reference/run/
-  dc run --service-ports $@
+  dc run --service-ports $1 "${@:2}"
 }
 
 runbash(){
