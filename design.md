@@ -52,6 +52,7 @@
     - a job in the cluster may continuosly update the list of addresses at domain provider (e.g. via AWS api or smth)
     - this way client always requests abc.com, but requests are handled by current master nodes (which by design may always change)
 
-- installation
-  - prerequisite for agent installation is docker and/or kubernetes
-  - agent is installed as container
+- cluster installation
+  - prerequisite for agent installation is docker/k8s
+  - this way a node may host multiple systems and installation is OS-agnostic
+  - agent and node should be installed as container

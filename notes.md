@@ -86,6 +86,7 @@
     - " the default operating mode for connections from the nodes and pods running on the nodes to the control plane is secured by default and can run over untrusted and/or public networks"
   - https://kubernetes.io/blog/2016/10/globally-distributed-services-kubernetes-cluster-federation/
   - kind (to run k8s in docker)
+    - https://github.com/kubernetes-sigs/kind
     - https://kind.sigs.k8s.io/docs/user/quick-start/
   - installing production k8s
     - https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/high-availability/
