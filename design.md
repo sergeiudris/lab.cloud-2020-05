@@ -41,7 +41,7 @@
   - decentralized k8 cluster
   
 
--in theory: 
+- in theory: 
   - dynamic list of master nodes
     - cluster optimal state implies e.g. not less than 10 master nodes and no more than 10% of total
     - a job runs in the cluster that whenever the master nodes change, pushes updated list of master nodes to github repo
@@ -51,3 +51,7 @@
   - domain
     - a job in the cluster may continuosly update the list of addresses at domain provider (e.g. via AWS api or smth)
     - this way client always requests abc.com, but requests are handled by current master nodes (which by design may always change)
+
+- installation
+  - prerequisite for agent installation is docker and/or kubernetes
+  - agent is installed as container
