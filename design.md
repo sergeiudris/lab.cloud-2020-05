@@ -83,3 +83,18 @@
   - keys are stored in a private repo and used during image builds
   - once origin image is built, cluster can be stared (originate) anywhere (at any node) using the origin image
 
+- node image
+  - node image is docker-in-docker
+  - once mounted, it swarm inits
+  - it starts an agent process (maybe in swarm or maybe direclty in docker)
+  - agent process performs ops to find out if cluster exists and either starts or joins the cluster
+  - all that happens inside the docker-in-docker node image, reource limits can be specified
+
+- distributed database
+  - db node can be added to every node
+  - once added, it connects to db cluster within the system cluster
+  - data is replicated and distributed (at first, replicated on every node)
+  - data can be peristed on host via docker volume
+
+
+
