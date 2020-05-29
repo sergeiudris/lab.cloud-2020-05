@@ -66,7 +66,8 @@
 - master nodes
   - cluster auto handles master node promotion/demotion
   - there can be from 1 up to 7 master nodes
-  - at any point in time master has at least 1 master node
+    - https://docs.docker.com/engine/swarm/how-swarm-mode-works/nodes/
+  - what's important: at any point in time master has at least 1 master node
 
 - cluster spec/config
   - clsuter spec/config should be in files, version controled
