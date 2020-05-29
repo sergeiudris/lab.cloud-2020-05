@@ -90,3 +90,7 @@
     - https://kind.sigs.k8s.io/docs/user/quick-start/
   - installing production k8s
     - https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/high-availability/
+
+
+- swarm
+  - https://callistaenterprise.se/blogg/teknik/2017/12/18/docker-in-swarm-mode-on-docker-in-docker/
