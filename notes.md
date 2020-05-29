@@ -93,4 +93,7 @@
 
 
 - swarm
-  - https://callistaenterprise.se/blogg/teknik/2017/12/18/docker-in-swarm-mode-on-docker-in-docker/
+  - https://docs.docker.com/engine/swarm/
+  - https://docs.docker.com/engine/swarm/stack-deploy/
+  - docker in docker
+    - https://callistaenterprise.se/blogg/teknik/2017/12/18/docker-in-swarm-mode-on-docker-in-docker/
