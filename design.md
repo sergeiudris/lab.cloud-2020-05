@@ -89,6 +89,10 @@
   - it starts an agent process (maybe in swarm or maybe direclty in docker)
   - agent process performs ops to find out if cluster exists and either starts or joins the cluster
   - all that happens inside the docker-in-docker node image, reource limits can be specified
+  - proxy
+    - for mahcine owner, node is a container with a volume that exposes a port; mahcine owner opens that port in the router
+    - swarm inside the container uses behind-proxy option to run in one-port-container (if single port proxy is possible)
+    - if not, mahcine owner should expose standard range of cluster ports ~ 30...-32...
 
 - distributed database
   - db node can be added to every node
