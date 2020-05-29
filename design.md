@@ -56,3 +56,17 @@
   - prerequisite for agent installation is docker/k8s
   - this way a node may host multiple systems and installation is OS-agnostic
   - agent and node should be installed as container
+
+- developing cluster
+  - nodes run in containers
+  - develop using localhost and HA-cluster of container nodes (same node containers  can be run on other machines as well)
+  - use localost browser ui, should be same as using sub.domain.io
+  - if it's possible, consider installing cluster certificates dynamically using ?extension (it would allow https requests to control nodes)
+
+- master nodes
+  - cluster auto handles master node promotion/demotion
+  - there can be from 1 up to 7 master nodes
+  - at any point in time master has at least 1 master node
+
+- cluster spec/config
+  - clsuter spec/config should be in files, version controled
