@@ -72,7 +72,14 @@
 - cluster spec/config
   - clsuter spec/config should be in files, version controled
 
+- cluster growth/shrinkage
+  - cluster can originate, grow from one to many nodes and shrink back to one node
+  - when node image starts, it either joins the cluster or originates a clsuter
+  - when a new node join the cluster, current control nodes check if new node has better characteristics to be a control node
+  - if conditions are met, one of the control nodes is demoted and new noted is promoted
+
 - controlling the cluster
   - certain (e.g. cluster control) operations require security keys
   - keys are stored in a private repo and used during image builds
   - once origin image is built, cluster can be stared (originate) anywhere (at any node) using the origin image
+
