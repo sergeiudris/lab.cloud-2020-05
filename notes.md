@@ -108,3 +108,4 @@
 
 - autoscaling
   - https://kubernetes.io/blog/2016/07/autoscaling-in-kubernetes/
+  - https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler
