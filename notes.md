@@ -105,3 +105,6 @@
 
 - containerd
   - https://www.docker.com/blog/what-is-containerd-runtime/
+
+- autoscaling
+  - https://kubernetes.io/blog/2016/07/autoscaling-in-kubernetes/
