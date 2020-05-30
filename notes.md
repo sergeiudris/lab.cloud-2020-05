@@ -100,6 +100,9 @@
     - https://github.com/kubernetes/examples
   - gitkube
     - https://github.com/hasura/gitkube
+  - agones
+    - https://github.com/googleforgames/agones
+    - https://agones.dev/site/docs/overview/
 
 - swarm
   - https://docs.docker.com/engine/swarm/
