@@ -142,4 +142,5 @@
   - https://docs.docker.com/engine/api/sdk/examples/
 
 - nats
-  - https://github.com/nats-io/nats-server
+  - https://github.com/nats-io
+  - https://docs.nats.io/whats_new_20
