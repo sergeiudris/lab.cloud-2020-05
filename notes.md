@@ -98,3 +98,10 @@
   - docker in docker
     - https://callistaenterprise.se/blogg/teknik/2017/12/18/docker-in-swarm-mode-on-docker-in-docker/
   - https://docs.docker.com/engine/swarm/how-swarm-mode-works/nodes/
+
+- cloud standards
+  - https://en.wikipedia.org/wiki/Open_Container_Initiative
+    - https://opencontainers.org/
+
+- containerd
+  - https://www.docker.com/blog/what-is-containerd-runtime/
