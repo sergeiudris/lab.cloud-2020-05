@@ -146,7 +146,3 @@
   - https://siliconangle.com/2020/01/13/nats-messaging-could-beat-kubernetes-to-the-edge-kubecon-startupoftheweek/
   - https://github.com/nats-io
   - https://docs.nats.io/whats_new_20
-
-- alternative cluster systems
-  - https://github.com/hashicorp/nomad
-    - https://www.nomadproject.io/intro/vs/kubernetes/
