@@ -93,7 +93,9 @@
   - self-hosted
     - https://github.com/kubernetes-sigs/bootkube
     - https://github.com/kubernetes/community/blob/master/contributors/design-proposals/cluster-lifecycle/self-hosted-kubernetes.md
-
+  - microK8s
+    - https://github.com/ubuntu/microk8s
+    - https://microk8s.io/docs/clustering
 
 - swarm
   - https://docs.docker.com/engine/swarm/
