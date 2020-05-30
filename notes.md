@@ -103,6 +103,8 @@
   - agones
     - https://github.com/googleforgames/agones
     - https://agones.dev/site/docs/overview/
+  - reconfiguring kubelet dynamically
+    - https://kubernetes.io/docs/tasks/administer-cluster/reconfigure-kubelet/#reconfiguring-the-kubelet-on-a-running-node-in-your-cluster
 
 - swarm
   - https://docs.docker.com/engine/swarm/
