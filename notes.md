@@ -98,6 +98,8 @@
     - https://microk8s.io/docs/clustering
   - examples
     - https://github.com/kubernetes/examples
+  - gitkube
+    - https://github.com/hasura/gitkube
 
 - swarm
   - https://docs.docker.com/engine/swarm/
