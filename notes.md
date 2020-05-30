@@ -142,5 +142,6 @@
   - https://docs.docker.com/engine/api/sdk/examples/
 
 - nats
+  - https://siliconangle.com/2020/01/13/nats-messaging-could-beat-kubernetes-to-the-edge-kubecon-startupoftheweek/
   - https://github.com/nats-io
   - https://docs.nats.io/whats_new_20
