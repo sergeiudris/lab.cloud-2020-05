@@ -132,6 +132,7 @@
 
 - service mesh
   - https://github.com/linkerd/linkerd
+  - https://github.com/linkerd/linkerd2
     - https://servicemesh.io/
     - https://linkerd.io/2/overview/
   - https://github.com/istio/istio
