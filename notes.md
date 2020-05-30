@@ -146,3 +146,7 @@
   - https://siliconangle.com/2020/01/13/nats-messaging-could-beat-kubernetes-to-the-edge-kubecon-startupoftheweek/
   - https://github.com/nats-io
   - https://docs.nats.io/whats_new_20
+
+- edge computing
+  - https://en.wikipedia.org/wiki/Edge_computing
+  - https://github.com/kubeedge/kubeedge
