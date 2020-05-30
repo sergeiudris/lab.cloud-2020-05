@@ -100,7 +100,9 @@
   - https://docs.docker.com/engine/swarm/stack-deploy/
   - docker in docker
     - https://callistaenterprise.se/blogg/teknik/2017/12/18/docker-in-swarm-mode-on-docker-in-docker/
-  - https://docs.docker.com/engine/swarm/how-swarm-mode-works/nodes/
+  - https://docs.docker.com/engine/swarm/how-swarm-mode-works/nodes/  
+  - routing mesh
+    - https://docs.docker.com/engine/swarm/ingress/
 
 - cloud standards
   - https://en.wikipedia.org/wiki/Open_Container_Initiative
@@ -116,3 +118,7 @@
   - swarm
     - https://stackoverflow.com/questions/41668621/how-to-configure-autoscaling-on-docker-swarm
     - https://forums.docker.com/t/autoscaling-in-docker-swarm/44353/2
+
+- service mesh
+  - https://linkerd.io/2/overview/
+  - https://servicemesh.io/
