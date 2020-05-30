@@ -120,8 +120,10 @@
     - https://forums.docker.com/t/autoscaling-in-docker-swarm/44353/2
 
 - service mesh
-  - https://linkerd.io/2/overview/
-  - https://servicemesh.io/
+  - https://github.com/linkerd/linkerd
+    - https://servicemesh.io/
+    - https://linkerd.io/2/overview/
+  - https://github.com/istio/istio
 
 - docker engine api
   - https://docs.docker.com/engine/api/
