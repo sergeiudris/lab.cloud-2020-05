@@ -90,6 +90,9 @@
     - https://kind.sigs.k8s.io/docs/user/quick-start/
   - installing production k8s
     - https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/high-availability/
+  - self-hosted
+    - https://github.com/kubernetes-sigs/bootkube
+    - https://github.com/kubernetes/community/blob/master/contributors/design-proposals/cluster-lifecycle/self-hosted-kubernetes.md
 
 
 - swarm
@@ -107,5 +110,9 @@
   - https://www.docker.com/blog/what-is-containerd-runtime/
 
 - autoscaling
-  - https://kubernetes.io/blog/2016/07/autoscaling-in-kubernetes/
-  - https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler
+  - k8s
+    - https://kubernetes.io/blog/2016/07/autoscaling-in-kubernetes/
+    - https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler
+  - swarm
+    - https://stackoverflow.com/questions/41668621/how-to-configure-autoscaling-on-docker-swarm
+    - https://forums.docker.com/t/autoscaling-in-docker-swarm/44353/2
