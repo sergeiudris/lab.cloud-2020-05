@@ -156,3 +156,5 @@
     - https://jpetazzo.github.io/2015/09/03/do-not-use-docker-in-docker-for-ci/
     - rootles
       - https://docs.docker.com/engine/security/rootless/
+    - where to store data 
+      - data can be persisted using -v /my/own/var-lib-docker:/var/lib/docker
