@@ -88,6 +88,8 @@
   - kind (to run k8s in docker)
     - https://github.com/kubernetes-sigs/kind
     - https://kind.sigs.k8s.io/docs/user/quick-start/
+    - alternative
+      - https://github.com/bsycorp/kind
   - installing production k8s
     - https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/high-availability/
   - self-hosted
