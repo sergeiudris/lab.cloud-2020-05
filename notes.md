@@ -176,3 +176,5 @@
     - no ha-cluster with stacked datalayer (only external?)
       - https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/ha-topology/
       - https://rancher.com/docs/k3s/latest/en/architecture/#high-availability-k3s-server-with-an-external-db
+      - experimental support for embedded
+        - https://rancher.com/docs/k3s/latest/en/installation/ha-embedded/
