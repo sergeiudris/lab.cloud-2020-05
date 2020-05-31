@@ -110,3 +110,11 @@
   - after nodes join, cluster automatically assigns roles and distributes responsibiltiy between nodes according to files
   - if node should become a server node, it dynamically downloads (if needed) additional images and/or data and starts processes
   - on demotion, it stops processes and removes data
+  - cluster always present
+    - say, cluster config specifies e.g. "system needs at least 20 machines"
+    - if origin image is started on a machine, cluster exists
+    - however, no processes are started and cluster acts according to config
+    - after 19 machines are added, cluster starts all the processes
+    - say, 1 machine is removed, 19 left
+    - cluster looks at config: config says e.g. "if cluster was up, but not enough mahcines agains, keep data but stop procs"
+    - cluster stops all procs on all mahcines, but continues to work
