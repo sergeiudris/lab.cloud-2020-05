@@ -117,6 +117,8 @@
   - https://docs.docker.com/engine/swarm/how-swarm-mode-works/nodes/  
   - routing mesh
     - https://docs.docker.com/engine/swarm/ingress/
+  - plugins 
+    - https://docs.docker.com/engine/extend/plugins_services/
 
 - cloud standards
   - https://en.wikipedia.org/wiki/Open_Container_Initiative
