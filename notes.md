@@ -178,3 +178,4 @@
       - https://rancher.com/docs/k3s/latest/en/architecture/#high-availability-k3s-server-with-an-external-db
       - experimental support for embedded
         - https://rancher.com/docs/k3s/latest/en/installation/ha-embedded/
+        - https://github.com/canonical/dqlite
