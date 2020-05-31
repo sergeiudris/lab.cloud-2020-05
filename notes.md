@@ -118,6 +118,7 @@
   - routing mesh
     - https://docs.docker.com/engine/swarm/ingress/
   - plugins 
+    - https://docs.docker.com/engine/extend/
     - https://docs.docker.com/engine/extend/plugins_services/
 
 - cloud standards
