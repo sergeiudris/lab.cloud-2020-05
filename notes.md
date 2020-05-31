@@ -171,3 +171,4 @@
   - k3s in docker
     - https://rancher.com/docs/k3s/latest/en/advanced/#running-k3d-k3s-in-docker-and-docker-compose
     - https://github.com/rancher/k3d
+    - https://github.com/rancher/k3s/blob/master/docker-compose.yml
