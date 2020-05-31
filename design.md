@@ -118,3 +118,12 @@
     - say, 1 machine is removed, 19 left
     - cluster looks at config: config says e.g. "if cluster was up, but not enough mahcines agains, keep data but stop procs"
     - cluster stops all procs on all mahcines, but continues to work
+
+- consider
+  - node runs in docker on the same level as apps
+  - node exposes api (http/tcp/que) that apps use, and proxies to apps
+  - node proc starts/stops apps etc. as it is --privileged in docker
+  - this way node has tls and other layers that apps should not be aware off
+  - so node is 
+    - a layer between app containers and the rest of the cluster
+    - a clsuter interface for apps
