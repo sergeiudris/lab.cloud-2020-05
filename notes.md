@@ -98,9 +98,7 @@
   - microK8s
     - https://github.com/ubuntu/microk8s
     - https://microk8s.io/docs/clustering
-  - k3s
-    - https://github.com/rancher/k3s
-    - https://rancher.com/docs/k3s/latest/en/architecture/
+
   - examples
     - https://github.com/kubernetes/examples
   - gitkube
@@ -166,3 +164,9 @@
 
 - snaps
   - https://snapcraft.io/
+
+- k3s
+  - https://github.com/rancher/k3s
+  - https://rancher.com/docs/k3s/latest/en/architecture/
+  - k3s in docker
+    - https://github.com/rancher/k3d
