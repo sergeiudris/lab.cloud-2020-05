@@ -158,3 +158,6 @@
       - https://docs.docker.com/engine/security/rootless/
     - where to store data 
       - data can be persisted using -v /my/own/var-lib-docker:/var/lib/docker
+
+- snaps
+  - https://snapcraft.io/
