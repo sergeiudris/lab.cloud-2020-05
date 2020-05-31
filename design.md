@@ -101,4 +101,12 @@
   - data can be peristed on host via docker volume
 
 
-
+- what cluster should be
+  - node represents address(id) and resources, there should be only one type of node: node
+  - node can add/remove additional responsility/role by starting/stoppping additional processes
+  - there should not be any commands on the node machines except for starting the origin image (agent)
+  - everything else is within files that describe how cluster works
+  - agent image should have it's own config to join the cluster, but again, as data (file), no cli
+  - after nodes join, cluster automatically assigns roles and distributes responsibiltiy between nodes according to files
+  - if node should become a server node, it dynamically downloads (if needed) additional images and/or data and starts processes
+  - on demotion, it stops processes and removes data
