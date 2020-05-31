@@ -127,3 +127,4 @@
   - so node is 
     - a layer between app containers and the rest of the cluster
     - a clsuter interface for apps
+  - node stars app containers and only accepts requests from these containers
