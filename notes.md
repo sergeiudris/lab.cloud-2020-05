@@ -183,7 +183,3 @@
       - experimental support for embedded
         - https://rancher.com/docs/k3s/latest/en/installation/ha-embedded/
         - https://github.com/canonical/dqlite
-
-- gravity
-  - https://github.com/gravitational/gravity
-  - https://github.com/gravitational/planet
