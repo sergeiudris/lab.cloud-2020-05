@@ -128,3 +128,7 @@
     - a layer between app containers and the rest of the cluster
     - a clsuter interface for apps
   - node stars app containers and only accepts requests from these containers
+
+- cluster repl interface
+  - git repo of clojure files, interact/operate on the cluster using REPL
+  - e.g. eval expression to donwload log files, open them in editor as well
