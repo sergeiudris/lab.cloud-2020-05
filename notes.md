@@ -169,6 +169,7 @@
   - https://snapcraft.io/
 
 - k3s
+  - https://rancher.com/press/2019-02-26-press-release-rancher-labs-introduces-lightweight-distribution-kubernetes-simplify/
   - https://github.com/rancher/k3s
   - https://rancher.com/docs/k3s/latest/en/architecture/
   - k3s in docker
