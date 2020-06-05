@@ -183,3 +183,7 @@
       - experimental support for embedded
         - https://rancher.com/docs/k3s/latest/en/installation/ha-embedded/
         - https://github.com/canonical/dqlite
+
+
+- rabbitmq cluster formation
+  - https://www.rabbitmq.com/cluster-formation.html
