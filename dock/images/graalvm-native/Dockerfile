@@ -15,7 +15,7 @@ WORKDIR /tmp
 ## graalvm
 # https://github.com/arjones/docker-graalvm/blob/master/Dockerfile
 # https://github.com/OlegIlyenko/graalvm-native-image/blob/master/Dockerfile
-ENV GRAALVM_VERSION=20.0.0
+ENV GRAALVM_VERSION=21.0.0.2
 ENV SUFFIX_DIR=java11-${GRAALVM_VERSION}
 ENV PATH $PATH:/usr/local/graalvm/bin
 #  dir will be graalvm-ce-java8-${GRAALVM_VERSION}
